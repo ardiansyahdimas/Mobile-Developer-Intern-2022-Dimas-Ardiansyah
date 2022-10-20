@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".ui.FirstScreen">
+   <de.hdodenhof.circleimageview.CircleImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginTop="150dp"
+       android:src="@drawable/ic_photo"/>
+
+   <EditText
+       android:id="@+id/edt_name"
+       android:layout_width="310dp"
+       android:layout_height="wrap_content"
+       android:hint="@string/name"
+       android:layout_marginTop="58dp"
+       android:paddingStart="20dp"
+       android:paddingTop="8dp"
+       android:paddingBottom="8dp"
+       android:paddingEnd="16dp"
+       android:background="@color/white"
+       android:layout_gravity="center"
+       android:inputType="text"
+       android:autofillHints="name" />
+
+   <EditText
+       android:id="@+id/edt_polindrome"
+       android:layout_width="310dp"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="22dp"
+       android:paddingStart="20dp"
+       android:paddingTop="8dp"
+       android:paddingBottom="8dp"
+       android:paddingEnd="16dp"
+       android:background="@color/white"
+       android:layout_gravity="center"
+       android:hint="@string/polindrome"
+       android:inputType="text"
+       tools:ignore="Autofill" />
+   <Button
+       android:id="@+id/btn_check"
+       android:layout_width="310dp"
+       android:layout_height="wrap_content"
+       android:text="@string/btn_check"
+       android:paddingTop="12dp"
+       android:paddingBottom="12dp"
+       android:layout_marginTop="45dp"
+       android:layout_gravity="center"/>
+   <Button
+       android:id="@+id/btn_next"
+       android:layout_width="310dp"
+       android:layout_height="wrap_content"
+       android:text="@string/next"
+       android:paddingTop="12dp"
+       android:paddingBottom="12dp"
+       android:layout_marginTop="15dp"
+       android:layout_gravity="center"/>
+</LinearLayout>

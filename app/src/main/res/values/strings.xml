@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Mobile Developer Intern 2022 - Dimas Ardiansyah</string>
+    <string name="btn_check">check</string>
+    <string name="polindrome">Polindrome</string>
+    <string name="name">Name</string>
+    <string name="next">next</string>
+    <string name="welcome">Welcome</string>
+    <string name="john_doe">John Doe</string>
+    <string name="selected_user_name">Selected User Name</string>
+    <string name="choose_a_user">Choose a User</string>
+    <string name="firstname_lastname">Firstname Lastname</string>
+    <string name="email">Email@Email.com</string>
+</resources>
